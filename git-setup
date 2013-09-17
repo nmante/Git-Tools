@@ -1,0 +1,12 @@
+#!/bin/sh
+
+user_name=$1
+repo_name=$2
+
+
+touch README.md
+git init
+git add README.md
+git commit -m "First Commit"
+git remote add origin "https://github.com/$user_name/$repo_name.git"
+git push -u origin master
