@@ -50,9 +50,9 @@ Run this command from your terminal/commandline to create a remote repository. T
 
 ###Explanation
 
-<your_github_username> - The username is what you use to login to github.com.  If you don't remember this, try going to github.com and seeing what your toolbar says.
+	<your_github_username> - The username is what you use to login to github.com.  If you don't remember this, try going to github.com and seeing what your toolbar says.
 
-<repo_name> - The name that you want for the repo.  Make it anything you want.
+	<repo_name> - The name that you want for the repo.  Make it anything you want.
 
 I'm using curl to make the request and create a repo in this shell script.
 
