@@ -16,6 +16,8 @@ Open a new terminal and run these commands from your terminal:
 	cd 
 	ls -a
 
+If you see .bash_profile in the list of files/dir then congrats.  Otherwise skip to the section which talks about not having a .bash_profile.
+
 ####If you have a .bash_profile
 
 If you have a .bash_profile, then open that file with your favorite text editor and add these lines to it
@@ -32,13 +34,11 @@ Open a new file in your favorite text editor.  Paste these commands in it:
 	PATH=$PATH:"<the_directory_which_has_git-create_etc>"
 	export PATH
 
-Save it with the file name ".bash_profile".  No extension, and no quotes.
+Save it with the file name ".bash_profile".  Make sure to put the '.' at the beginning. No file extension, and no quotes.
 
 ###Explanation
 
 Essentially, you want to be able to run these 'git-create', 'git-setup', etc. commands from anywhere.  Thus, you have to tell your computer to 'look' in the directory where you've downloaded (cloned) this repo to on your computer.
-
-
 
 ##Usage
 
