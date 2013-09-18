@@ -1,0 +1,8 @@
+#!/bin/sh
+
+directory_to_update=$1
+message_to_commit=$2
+
+git add "$directory_to_update"
+git commit -m "$message_to_commit"
+git push origin master
