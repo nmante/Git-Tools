@@ -1,4 +1,4 @@
-#Utility Tools for creating a Github Repo
+#Utility Tools for creating/maintaining a Github Repo
 
 This repo contains some very simple shell scripts for creating, initializing and updating git repos from the command line.  I've simply combined frequently used git commands like 'add', 'commit', etc.  Fork it, and add to it if you like.
 
