@@ -48,7 +48,7 @@ Run this command from your terminal/commandline to create a remote repository. T
 	
 	git-create <your_github_username> <repo_name>
 
-###Explanation
+####Explanation
 
 	<your_github_username> 
 
@@ -66,7 +66,17 @@ Make your README, initial commit, and first push happen in one line.  Run this c
 
 	git-setup <your_github_username> <repo_name>
 
-###Explanation
+####Explanation
 
 I've simply extracted the first commands you must run for every repo, and placed them all in a shell file.  So, creating the README, adding revision, commiting it with a message and pushing to the repo are all here.
+
+###Add a file/set of files to the repo
+
+Run this command, and you'll be able to add a file/set of files to the repo of the directory of your choice. 
+
+	git-add_commit_push <directory_or_file_of_choice> "<the_commit_message>"
+
+Example:
+	
+	git-add_commit_push . "Committing the updated files in the current dir"
 
